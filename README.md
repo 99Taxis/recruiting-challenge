@@ -1,6 +1,9 @@
 # Feel like joining the Yellow Force?
 
-We are glad to hear that! But, you known, as Linus memorably put it, “Talk is cheap. Show me the code.” Get ready and remeber that unearthly nugget of wisdom: “Do or do not. There is no try.”
+We are glad to hear that! But, you known, as Linus memorably put it,
+“Talk is cheap. Show me the code.” Choose your favorite programming
+language and bear in mind that unearthly nugget of wisdom:
+“Do or do not. There is no try.”
 
 ## Route Simplification
 
