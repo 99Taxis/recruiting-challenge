@@ -1,6 +1,10 @@
-# Route Simplification
+# Feel like joining the Yellow Force?
 
-## Motivation
+We are glad to hear that! But, you known, as Linus memorably put it, “Talk is cheap. Show me the code.” Get ready and remeber that unearthly nugget of wisdom: “Do or do not. There is no try.”
+
+## Route Simplification
+
+### Motivation
 
 We would like to reduce the number of space-time points with which our routes
 are represented, not only to save storage space, but also to make route processing
@@ -12,7 +16,7 @@ requirements they do not make route processing algorithms more efficient (on the
 contrary, they demand decompression before any route processing). Therefore, we
 chose to develop a specialized solution.
 
-## Requirements
+### Requirements
 
 In this challenge you will implement a lossy compression algorithm which
 eliminates redundant points in a route.
@@ -41,12 +45,12 @@ extrapolation method, reconstruct the original V within the allowed error
 margin. Bear in mind that you are _not_ required to implement the
 reconstructor / decompressor in this challenge.
 
-### Tolerance
+#### Tolerance
 
 The maximum allowed extrapolation error at any time instant from the original
 route is 10 meters. Extrapolation error is defined as the [orthodomic distance](https://en.wikipedia.org/wiki/Great-circle_distance) between the original and extrapolated geographical points.
 
-### Complexity
+#### Complexity
 
 Your solution should ideally satisfy the following complexity constraints:
 **S = O(1)** and **T = O(n)**. Therefore, the memory usage of your
@@ -56,7 +60,7 @@ to run should be directly proportional to the input size.
 The complexity constraints require a greedy approach which is not
 guaranteed to always achieve maximum compression level. That is ok.
 
-### I/O Format
+#### I/O Format
 
 Input: string in [CSV](https://en.wikipedia.org/wiki/Comma-separated_values) format, with chronologically sorted sequence of `timestamp,longitude,latitude` space-time points.
 
@@ -64,9 +68,9 @@ Output: same as input, without the redundant points. Caveat: the output points s
 have exactly the same numerical precision and contain no unnecessary characters, such
 as trailing zeroes or whitespace.
 
-#### Example
+##### Example
 
-##### Input
+###### Input
 
 ```
 100,-43.00495,-22.82115
@@ -93,7 +97,7 @@ as trailing zeroes or whitespace.
 284,-43.00480,-22.82112
 ```
 
-##### Output
+###### Output
 
 ```
 100,-43.00495,-22.82115
@@ -109,10 +113,10 @@ as trailing zeroes or whitespace.
 284,-43.0048,-22.82112
 ```
 
-### Documentation
+#### Documentation
 
 Please document your assumptions and present the reasoning behind them.
 
-## Submission Instructions
+### Submission Instructions
 
 Please send your solution via email to [coding-challenge@99taxis.com](mailto:coding-challenge@99taxis.com), with your source code file(s) attached. Help keep things interesting and fair and please do not upload your solution to any public place on the web, including public repos.
