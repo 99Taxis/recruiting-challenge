@@ -1,9 +1,8 @@
 # Feel like joining the Yellow Force?
 
 We are glad to hear that! But, you known, as Linus memorably put it,
-“Talk is cheap. Show me the code.” Choose your favorite programming
-language and bear in mind that unearthly nugget of wisdom:
-“Do or do not. There is no try.”
+“Talk is cheap. Show me the code.” So open your favorite editor and
+remember that unearthly nugget of wisdom: “Do or do not. There is no try.”
 
 ## Route Simplification
 
@@ -123,4 +122,12 @@ Please document your assumptions and present the reasoning behind them.
 
 ### Submission Instructions
 
-Please send your solution via email to [coding-challenge@99taxis.com](mailto:coding-challenge@99taxis.com), with your source code file(s) attached. Help keep things interesting and fair and please do not upload your solution to any public place on the web, including public repos.
+Please send your solution via email to [coding-challenge@99taxis.com](mailto:coding-challenge@99taxis.com),
+with your source code file(s) and README attached. Please use one of the
+following programming languages: Scala, Java, Python or Ruby.
+
+### Final remarks
+
+Please help keep things interesting and fair and please do not upload
+your solution to any public place on the Internet. “Once you start down
+the dark path, forever will it dominate your destiny.”
