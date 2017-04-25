@@ -54,7 +54,7 @@ route is 10 meters. Extrapolation error is defined as the [orthodomic distance](
 
 Your solution should ideally satisfy the following complexity constraints:
 **S = O(1)** and **T = O(n)**. Therefore, the memory usage of your
-solution should not depend on the input size and the time it requirements
+solution should not depend on the input size and the time it requires
 to run should be directly proportional to the input size.
 
 The complexity constraints require a greedy approach which is not
