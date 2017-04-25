@@ -128,6 +128,6 @@ following programming languages: Scala, Java, Python or Ruby.
 
 ### Final remarks
 
-Please help keep things interesting and fair and please do not upload
-your solution to any public place on the Internet. “Once you start down
+Help keep things interesting and fair and please do not upload your
+solution to any public place on the Internet. “Once you start down
 the dark path, forever will it dominate your destiny.”
