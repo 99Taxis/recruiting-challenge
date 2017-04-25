@@ -112,3 +112,7 @@ as trailing zeroes or whitespace.
 ### Documentation
 
 Please document your assumptions and present the reasoning behind them.
+
+## Submission Instructions
+
+Please send your solution via email to [coding-challenge@99taxis.com](mailto:coding-challenge@99taxis.com), with your source code file(s) attached. Help keep things interesting and fair and please do not upload your solution to any public place on the web, including public repos.
