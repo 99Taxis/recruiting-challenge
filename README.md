@@ -33,7 +33,7 @@ The following linear extrapolation scheme is to be adopted:
 `predicted_location(y[i], v, dt) = y[i] + v * dt`, where `y[i]` is the
 predecessor to the point `x[j]` being predicted, `v` is the vectorial speed
 estimate at `y[i]` and `dt` is the time difference between `x[j]` and
-`y[i]`. Points `x[i]` are from the original input route and points `y[j]`
+`y[i]`. Points `x[.]` are from the original input route and points `y[.]`
 pertain to the simplified output route. Speed is assumed to be zero at the
 beginning of the route.
 
