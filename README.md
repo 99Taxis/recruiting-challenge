@@ -35,7 +35,8 @@ predecessor to the point `x[j]` being predicted, `v` is the vectorial speed
 estimate at `y[i]` and `dt` is the time difference between `x[j]` and
 `y[i]`. Points `x[.]` are from the original input route and points `y[.]`
 pertain to the simplified output route. Speed is assumed to be zero at the
-beginning of the route.
+beginning of the route. The last time-space point of the original route must
+_always_ be included in the simplified one.
 
 Defining U as the original route and V as the simplified one, the data in V
 should suffice to predict all points in U within the allowed error margin
