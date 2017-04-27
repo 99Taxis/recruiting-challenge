@@ -1,7 +1,7 @@
 # Feel like joining the Yellow Side?
 
 We are glad to hear that! But, you known, as Linus memorably put it,
-“Talk is cheap. Show me the code.” So open your favorite editor and
+“Talk is cheap. Show me the code.” So fire up your favorite editor and
 remember that unearthly nugget of wisdom: “Do or do not. There is no try.”
 
 ## Route Simplification
