@@ -68,8 +68,9 @@ guaranteed to always achieve maximum compression level. That is ok.
 Input: string in [CSV](https://en.wikipedia.org/wiki/Comma-separated_values) format, with chronologically sorted sequence of `timestamp,longitude,latitude` space-time points.
 
 Output: same as input, without the redundant points. Caveat: the output points should
-have exactly the same accuracy and precision and contain no unnecessary characters,
-such as trailing zeroes or whitespace.
+have exactly the same accuracy, although not necessarily the same [precision](https://en.wikipedia.org/wiki/Accuracy_and_precision),
+as the corresponding input ones and contain no unnecessary characters, such as
+trailing zeroes or whitespace.
 
 ##### Example
 
