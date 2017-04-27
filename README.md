@@ -1,4 +1,4 @@
-# Feel like joining the Yellow Force?
+# Feel like joining the Yellow Side?
 
 We are glad to hear that! But, you known, as Linus memorably put it,
 “Talk is cheap. Show me the code.” So open your favorite editor and
